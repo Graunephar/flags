@@ -1,0 +1,104 @@
+.flag {
+    width: 150px;
+    height: 100px;
+    border-width: 20px;
+    border: 2px solid black;
+    margin: 15px; 
+    position: relative;
+    /**overflow: hidden;**/
+}
+
+.whitetop {
+    background-color: white;
+    vertical-align: bottom;
+    height: 50%
+}
+
+.redbase {
+    background-color: red;
+}
+
+
+.verticalsquarethird {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+}
+
+.horisontalsquarethird {
+    width: 100%;
+    height: 33%;
+    display: inline-block;
+}
+
+.bluestart {
+    background-color: blue;
+}
+
+.end {
+    float: right;
+}
+
+.red {
+    background-color: red;
+}
+
+.darkred {
+    background-color: darkred;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+/** center hack from: https://stackoverflow.com/questions/356809/best-way-to-center-a-div-on-a-page-vertically-and-horizontally **/
+.center {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.blacktop {
+    background-color: black;
+    vertical-align: 0cm;
+}
+
+.yellowbottom {
+    background-color: yellow;
+    bottom: 10px;
+}
+
+.bigdanishsquare {
+    height: 40%;
+    width: 57%;
+    position: absolute;
+}
+
+.smalldanishsquare {
+    height: 40%;
+    width: 30%;
+    position: absolute;
+}
+
+.top {
+    top:0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+    display: inline-block;
+}
